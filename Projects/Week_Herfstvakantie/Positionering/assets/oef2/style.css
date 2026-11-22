@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+header {
+  background-color: #283e4a;
+  padding: 1rem;
+}
+
+body {
+  width: 980px;
+  margin: 0.5rem auto;
+  background-image: url("./assets/bgimage.png");
+  background-blend-mode: multiply;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin: 0;
+  color: #f2f2f2;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 25%;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  gap: 1.5rem;
+  border: 1px solid #d0cdcd;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#content {
+  flex: 1;
+  background-color: #f2f2f2;
+  border: 1px solid #d0cdcd;
+}
+
+.articles {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+article {
+  flex: 1;
+  position: relative;
+  border-bottom: 5px solid #283e4a;
+}
+
+article img {
+  display: block;
+  width: 100%;
+}
+
+#nieuw {
+  position: absolute;
+  background-color: red;
+  padding: 0.25rem;
+  top: 0;
+  right: 0;
+}
+
+hr {
+  width: 50%;
+  height: 3px;
+  background-color: #283e4a;
+  border: none;
+}
+
+#blog {
+  padding: 1rem;
+}
+
+#top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #283e4a;
+  padding: 0.5rem;
+}
+
+#top a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+#mezelf {
+  float: left;
+  padding: 0.5rem;
+}
