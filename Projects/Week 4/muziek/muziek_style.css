@@ -1,0 +1,77 @@
+body {
+  background-color: darkcyan;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: gold;
+}
+
+h2 {
+  color: beige;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: gold;
+}
+
+li {
+  color: gold;
+}
+
+article {
+  border: 2px solid gold;
+}
+
+#pukkelpop {
+  background-color: lightblue;
+  color: darkblue;
+  padding: 0px 0px 20px 20px;
+  margin: 40px 0px;
+}
+
+#werchter {
+  background-color: lightyellow;
+  color: green;
+  padding: 0px 0px 20px 20px;
+  margin-bottom: 40px;
+}
+
+#tomorrowland {
+  background-color: pink;
+  color: white;
+  padding: 0px 0px 20px 20px;
+  margin-bottom: 40px;
+}
+
+#graspop {
+  background-color: rgb(138, 79, 138);
+  color: beige;
+  padding: 0px 0px 20px 20px;
+  margin-bottom: 40px;
+}
+
+#dour {
+  background-color: lightgreen;
+  color: lightslategray;
+  padding: 0px 0px 20px 20px;
+  margin-bottom: 40px;
+}
+
+article a {
+  color: black;
+}
+
+#festivallinks a {
+  border: 2px solid grey;
+
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 20px;
+}

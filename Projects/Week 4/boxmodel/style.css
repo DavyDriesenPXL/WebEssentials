@@ -1,0 +1,17 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorem {
+  width: 60%;
+  box-sizing: border-box;
+  float: left;
+}
+.boxmodel {
+  box-sizing: border-box;
+  float: right;
+  width: 40%;
+  border: 10px solid green;
+  background-color: lightgrey;
+  padding: 20px;
+}

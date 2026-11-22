@@ -1,0 +1,17 @@
+body {
+  font-family: Roboto, serif;
+  font: Roboto;
+  box-sizing: border-box;
+}
+
+main,
+header {
+  width: 1200px;
+  margin: 10px auto;
+}
+
+section {
+  background-color: #dcc066;
+  border: 3px solid #740001;
+  padding: 30px;
+}
