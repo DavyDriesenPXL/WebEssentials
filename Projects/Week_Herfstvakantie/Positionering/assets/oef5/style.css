@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orangered;
+}
+
+#squares {
+  position: relative;
+  height: 30rem;
+}
+
+#squares div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 5px 15px;
+}
+
+#square1 {
+  top: 1rem;
+  left: 1rem;
+  z-index: 4;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#square2 {
+  top: 4.5rem;
+  left: 4.5rem;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#square3 {
+  top: 8rem;
+  left: 8rem;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#square4 {
+  top: 11.5rem;
+  left: 11.5rem;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
