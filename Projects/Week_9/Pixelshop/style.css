@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 980px;
+  background-color: #f4f0fa;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem auto;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  background-color: #2d1b4e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3em;
+}
+
+#blackfriday {
+  background-color: #6c3fc5;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+#blackfriday h2 {
+  margin: 0;
+}
+
+#button {
+  display: inline-block;
+  background-color: #ffd23f;
+  color: #2d1b4e;
+  font-weight: bold;
+  border-radius: 1rem;
+  margin: 0;
+  padding: 0.75rem 2rem;
+}
+
+main {
+  display: flex;
+  padding: 1rem 0;
+}
+
+#content {
+  flex: 1;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  padding: 1rem;
+}
+
+#content h2 {
+  padding-left: 1rem;
+}
+
+#producten {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#producten h3,
+#producten p {
+  margin: 0.5rem;
+}
+
+#producten p {
+  color: #6c3fc5;
+  font-weight: bold;
+}
+
+#producten article img {
+  display: block;
+  width: 100%;
+}
+
+#producten article {
+  position: relative;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 1rem;
+  overflow: hidden;
+  flex: 1;
+}
+
+.korting {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: #e02020;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d1b4e;
+  color: white;
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+
+footer h4 {
+  margin: 0.5rem 0;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+aside {
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  align-self: flex-start;
+  width: 25%;
+  margin-left: 1rem;
+}
+
+aside h3 {
+  color: #6c3fc5;
+  margin: 0.5rem;
+}
+
+aside li {
+  padding: 0.25rem;
+}
+
+#circle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#circle div {
+  background-color: #6c3fc5;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top {
+  position: fixed;
+  color: #2d1b4e;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffd23f;
+  padding: 1rem;
+  border-radius: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+}
