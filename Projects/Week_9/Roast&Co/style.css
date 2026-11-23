@@ -1,0 +1,199 @@
+:root {
+  --grey: #e6e6e6;
+  --espresso: #1a110b;
+  --hero: #2b1e15;
+  --blog: #f4f4f4;
+  --products: #f6efe5;
+  --warmgold: #b89352;
+  --darkbrown: #3a2a1e;
+  --almostblack: #1f1712;
+  --subtlebrown: #594e46;
+  --softcreme: #f5f2ed;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 980px;
+  background-color: var(--grey);
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+
+header {
+  background-color: var(--almostblack);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+header h1 {
+  color: var(--warmgold);
+  margin: 1rem;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  color: var(--softcreme);
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+#home {
+  background-color: var(--hero);
+  padding: 1rem;
+  border-radius: 1rem;
+  color: var(--warmgold);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f5f2ed;
+}
+
+#hero {
+  display: flex;
+  width: 100%;
+}
+
+#koffie,
+#aanbod {
+  flex: 1;
+}
+
+#aanbod {
+  background-color: var(--hero);
+  padding-top: 3rem;
+}
+
+#hero-text {
+  color: var(--softcreme);
+  padding: 1rem;
+}
+
+#hero-text h2 {
+  font-size: 1em;
+  color: var(--warmgold);
+}
+
+#hero-text p:nth-child(2) {
+  font-size: 2em;
+  padding-top: 1rem;
+}
+
+#hero-text p:nth-child(3) {
+  padding: 1.5rem 0;
+}
+
+#button {
+  background-color: var(--warmgold);
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+}
+#hero img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#blog {
+  background-color: var(--blog);
+}
+
+#blog hr {
+  width: 10%;
+  display: flex;
+  align-self: center;
+  border: none;
+  padding: 0.1rem;
+  background-color: var(--warmgold);
+  margin: 1rem auto;
+}
+#products {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+article {
+  background-color: var(--products);
+  width: 30%;
+  border: 2px solid var(--darkbrown);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+
+article img {
+  display: block;
+  width: 100%;
+}
+
+footer {
+  background-color: var(--almostblack);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0 0 1rem 1rem;
+  padding: 1rem;
+  color: white;
+}
+
+.fancy {
+  color: var(--warmgold);
+  padding: 0.5rem 0;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.prijs {
+  text-align: center;
+  padding: 0.25rem;
+}
+
+.koffie {
+  color: var(--darkbrown);
+  padding: 0.5rem;
+  font-size: 1.3em;
+}
+
+.omschrijving {
+  padding: 0.5rem;
+}
+
+.prijs {
+  font-weight: bold;
+  color: var(--darkbrown);
+}
+
+article a {
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5rem;
+  border: 1px solid var(--warmgold);
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var(--warmgold);
+  text-align: center;
+}
