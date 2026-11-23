@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 980px;
+  margin: 1rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef1f4;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b2838;
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3em;
+}
+
+aside {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-self: flex-start;
+  border: 1px solid rgba(128, 128, 128, 0.407);
+  margin: 1rem;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 1rem;
+  gap: 0.5rem;
+  margin-top: 0;
+}
+
+aside h2 {
+  color: #1db0e1;
+  margin-left: 1rem;
+}
+
+#blog {
+  background-color: white;
+  flex: 1;
+  border: 1px solid rgba(128, 128, 128, 0.407);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+#nieuw {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #e02020;
+  color: white;
+  padding: 0.25rem;
+}
+
+#games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+article {
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+  border: 1px solid rgba(128, 128, 128, 0.407);
+  border-radius: 0.5rem;
+}
+article img {
+  display: block;
+  width: 100%;
+}
+
+article p {
+  text-align: center;
+  color: #1db0e1;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #1b2838;
+  color: white;
+  margin-top: 1rem;
+}
+
+hr {
+  width: 50%;
+  height: 3px;
+  background-color: #1b2838;
+  border: none;
+}
+
+#top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #1db0e1;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
