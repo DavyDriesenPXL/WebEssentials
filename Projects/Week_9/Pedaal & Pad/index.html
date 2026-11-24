@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pedaal & Pad</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pedaal & Pad</h1>
+      <nav>
+        <ul>
+          <li>Routes</li>
+          <li>Verhuur</li>
+          <li>Nieuwsbrief</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <img src="images/fiets2.jpg" alt="fietsend koppel in een bos" />
+        <div>
+          <h2>Ontdek Limburg op twee wielen</h2>
+          <a href="#">Bekijk routes</a>
+        </div>
+      </section>
+      <section id="content">
+        <h2>Populaire routes</h2>
+        <section id="articles">
+          <article>
+            <span id="km">42 km</span>
+            <img src="images/placeholder.jpg" alt="placeholder" />
+            <h3>Hoge Kempen</h3>
+            <p>Bos, heide en rust.</p>
+          </article>
+          <article>
+            <span id="km">28 km</span>
+            <img src="images/placeholder.jpg" alt="placeholder" />
+            <h3>Maasvallei</h3>
+            <p>Langs het water.</p>
+          </article>
+          <article>
+            <span id="km">65 km</span>
+            <img src="images/placeholder.jpg" alt="placeholder" />
+            <h3>Haspengouw</h3>
+            <p>Fruitbomen en heuvels.</p>
+          </article>
+        </section>
+        <section id="rest">
+          <section id="verhuur">
+            <h2>Fietsverhuur</h2>
+            <table>
+              <caption>
+                Tarieven per dag
+              </caption>
+              <thead>
+                <tr>
+                  <th>Soort</th>
+                  <th>Fiets</th>
+                  <th>Prijs</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2">Gewoon</td>
+                  <td>Stadsfiets</td>
+                  <td>€ 10</td>
+                </tr>
+                <tr>
+                  <td>Trekkingfiets</td>
+                  <td>€ 14</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Elektrisch</td>
+                  <td>E-citybike</td>
+                  <td>€ 25</td>
+                </tr>
+                <tr>
+                  <td>E-mountainbike</td>
+                  <td>€ 35</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2">Borg per fiets</td>
+                  <td id="bold">€ 50</td>
+                </tr>
+              </tfoot>
+            </table>
+          </section>
+          <aside>
+            <h4>Nieuwsbrief</h4>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@voorbeeld.be"
+              required
+            />
+            <p>Niveau</p>
+            <div id="labels">
+              <input
+                type="radio"
+                id="beginner"
+                name="answer"
+                value="beginner"
+              />
+              <label for="beginner">Beginner</label>
+              <input
+                type="radio"
+                id="gevorderd"
+                name="answer"
+                value="gevorderd"
+                checked
+              />
+              <label for="gevorderd">Gevorderd</label>
+            </div>
+            <div id="checkbox">
+              <input type="checkbox" id="scales" name="scales" />
+              <label for="scales">Ik ga akkoord</label>
+            </div>
+            <a href="#">Inschrijven</a>
+          </aside>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Pedaal & Pad • Hasselt</p>
+    </footer>
+  </body>
+</html>

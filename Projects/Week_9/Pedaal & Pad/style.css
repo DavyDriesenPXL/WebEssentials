@@ -1,0 +1,199 @@
+:root {
+  --donkergroen: #1b4332;
+  --accent: #f4a261;
+  --achtergrond: #f1f7f3;
+  --tabelkleur: #d8e8de;
+  --tabelkleur2: #eef5f0;
+  --tekst: #212121;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 980px;
+  margin: 0 auto;
+  background-color: var(--tekst);
+}
+
+header {
+  background-color: var(--donkergroen);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+#hero {
+  position: relative;
+}
+
+#hero img {
+  display: block;
+  height: 300px;
+  width: 100%;
+}
+
+#hero div {
+  position: absolute;
+  top: 7rem;
+  left: 3rem;
+  width: 350px;
+  height: 150px;
+  background-color: var(--donkergroen);
+  padding: 1rem;
+}
+
+#hero div h2 {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+#hero div a {
+  text-decoration: none;
+  color: var(--donkergroen);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent);
+  border-radius: 0.25rem;
+}
+
+#content h2 {
+  font-size: 1.3em;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#content {
+  background-color: var(--achtergrond);
+  padding: 1rem;
+  margin: 0;
+}
+
+#articles {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+article {
+  position: relative;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  padding-bottom: 0.5rem;
+}
+
+article h3,
+article p {
+  padding: 0.25rem 1rem;
+}
+
+#km {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: var(--accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 50%;
+  right: 1rem;
+  top: 1rem;
+}
+
+footer {
+  background-color: var(--donkergroen);
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+#rest {
+  display: flex;
+}
+
+#verhuur {
+  flex: 1;
+}
+
+#verhuur h2 {
+  text-align: left;
+}
+
+table caption {
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 0.25rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+
+table th {
+  background-color: var(--donkergroen);
+  color: white;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+table tr,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: var(--tabelkleur);
+}
+
+table tr:nth-child(even),
+table tfoot {
+  background-color: var(--tabelkleur2);
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 200px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+aside a {
+  background-color: var(--accent);
+  text-decoration: none;
+  color: var(--donkergroen);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#labels {
+  display: flex;
+  gap: 0.25rem;
+}
