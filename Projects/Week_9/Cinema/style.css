@@ -1,0 +1,176 @@
+:root {
+  --donkerblauw: #14213d;
+  --accent: #fca311;
+  --achtergrond: #f5f5f5;
+  --tekst: #212121;
+  --tabel1: #e5e5e5;
+  --tabel2: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 980px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  background-color: var(--donkerblauw);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+#hero {
+  position: relative;
+  width: 100%;
+}
+#hero img {
+  display: block;
+  width: 100%;
+}
+
+#hero div {
+  color: white;
+  width: 350px;
+  background-color: var(--donkerblauw);
+  padding: 2rem;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
+#hero div h2,
+#hero div p {
+  padding-bottom: 1rem;
+}
+
+#hero a {
+  text-decoration: none;
+  color: var(--donkerblauw);
+  background-color: var(--accent);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+#content {
+  background-color: var(--achtergrond);
+}
+
+#content h2:first-child {
+  text-align: center;
+  padding: 1rem;
+}
+
+#films {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+article {
+  width: 300px;
+  border: 1px solid rgb(128, 128, 128, 0.4);
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+article h3 {
+  padding: 1rem 0 0.5rem 1rem;
+}
+
+article p {
+  padding: 0 0 1rem 1rem;
+}
+
+#programma {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+aside {
+  border: 1px solid black;
+  background-color: white;
+  width: 300px;
+  align-self: flex-start;
+}
+#programma {
+  padding: 1rem;
+}
+aside ul {
+  list-style-type: square;
+  padding: 0.25rem 0 0.5rem 2rem;
+}
+
+aside ul li {
+  padding-bottom: 0.5rem;
+}
+
+#voorstellingen {
+  flex: 1;
+}
+table {
+  width: 100%;
+  padding: 1rem;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+aside h3 {
+  padding: 1rem 0 1rem 0.5rem;
+}
+
+footer {
+  background-color: var(--donkerblauw);
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+table caption {
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+table thead {
+  background-color: var(--donkerblauw);
+  color: white;
+  text-align: left;
+}
+
+table thead th,
+table td {
+  padding: 0.5rem;
+}
+
+table tbody,
+table td {
+  border: 1px solid black;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: var(--tabel1);
+}
+
+table tbody tr:nth-child(even) {
+  background-color: var(--tabel2);
+}
+
+table tfoot {
+  font-weight: bold;
+}
